@@ -1,0 +1,17 @@
+We have a text file for storing the words we are using in the game .
+We read the file and grab words sequentially using loop
+
+Inside loop ::
+    We count the letter present in the words and store same no of blank spaces in the array which we are storing 
+    the half filled words which is to be presented to the user. let's called that array as userArr[] 
+
+    now we present userArr[] to user and ask for user input for letter 
+    we check whether the letter given by user matches with any of the letter in our original word.
+
+    and if condition is true we insert the letter in the userArr[] at proper position and if 
+    the condition is false we decrease the player life by one which is 6 by default.
+
+when life reaches 0 we  ask whether usr wants to continue or not if yes we repeat same process else we quit. 
+
+
+

@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "window.hpp": "c",
+        "graphic.h": "c",
+        "windows.h": "c",
+        "functions.h": "c",
+        "iostream": "cpp",
+        "stdio.h": "c",
+        "game.h": "c",
+        "start_menu.h": "c"
+    }
+}
